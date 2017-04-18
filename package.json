@@ -1,0 +1,29 @@
+{
+  "name": "noderestfulapi",
+  "version": "1.0.0",
+  "description": "A complete RESTful API that logs in to the system, and make a CRUD",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb",
+    "RESTful",
+    "api",
+    "express"
+  ],
+  "author": "Luiz Felipe",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "md5": "^2.2.1",
+    "mongoose": "^4.9.4",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
